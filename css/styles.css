@@ -265,6 +265,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--first-title-color);
+  margin-bottom: 8px;
 }
 
 .about-item-name {
@@ -276,12 +277,11 @@ img {
 }
 
 .images-list {
-  display: flex;
-  gap: 24px;
+  display: none;
 }
 
 .images {
-  padding-bottom: 120px;
+  display: none;
 }
 
 .images-head {
@@ -317,7 +317,9 @@ img {
 
 .team-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px;
+  justify-content: center;
 }
 
 .team-group {
@@ -331,7 +333,6 @@ img {
 }
 
 .team-item {
-  width: calc((100% - 72px) / 4);
   background: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -375,25 +376,28 @@ img {
 }
 
 .customers {
-  padding: 120px 0 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .customers-main {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   margin-bottom: 72px;
-  color: var(--first-title-color);
 }
 
 .customers-list {
   display: flex;
-  justify-content: center;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px 16px;
 }
 
 .customers-item {
-  width: calc((100% - 120px) / 6);
+  width: calc((100% - 16px) / 2);
   height: 88px;
 }
 
@@ -902,6 +906,27 @@ img {
   .about-item {
     width: calc((100% - 24px) / 2);
   }
+
+  .team > .container {
+    max-width: 582px;
+  }
+  
+  .team-list {
+    gap: 64px 24px;
+  }
+
+  .customers > .container {
+    max-width: 582px;
+  }
+
+  .customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+  .customers-item {
+    width: calc((100% - 48px) / 3);
+  }
 }
 
 /* ----------PC---------- */
@@ -910,7 +935,7 @@ img {
   .container {
     max-width: 1158px;
   }
-  
+
   .about {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -943,5 +968,18 @@ img {
   }
   .about-item-name {
     font-weight: 400;
+  }
+
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-list {
+    gap: 24px;
+  }
+
+  .team-item {
+    width: calc((100% - 72px) / 4);
   }
 }
