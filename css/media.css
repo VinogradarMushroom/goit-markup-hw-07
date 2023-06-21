@@ -21,6 +21,9 @@
   .container {
     max-width: 768px;
   }
+  .menu-open-btn {
+    display: none;
+  }
 
   /* Header */
 
