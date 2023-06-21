@@ -64,27 +64,29 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="menu-open-btn">
+        <button type="button" class="menu-open-btn" data-menu-open>
           O
           <!-- <svg class="modal-icon" width="32" height="22">
             <use href="./images/icons.svg#icon-menu-hamburger"></use>
           </svg> -->
         </button>
       </div>
-      <div class="mob-menu">
+      <div class="mob-menu is-hidden" data-menu>
         <div>
-        <button type="button" class="menu-close-btn">
-          <svg class="modal-button" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-black"></use>
-          </svg>
-        </button>
-        
+          <button type="button" class="menu-close-btn" data-menu-close>
+            <svg class="modal-button" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+
           <ul class="mob-menu-list list p-text">
             <li class="mob-menu-item">
               <a class="mob-menu-link page link" href="./index.html">Studio</a>
             </li>
             <li class="mob-menu-item">
-              <a class="mob-menu-link link" href="./portfolio.html">Portfolio</a>
+              <a class="mob-menu-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
             </li>
             <li class="mob-menu-item">
               <a class="mob-menu-link link" href="">Contacts</a>
@@ -191,7 +193,6 @@
                 the perfect and creative solution.
               </p>
             </li>
-
             <li class="about-item">
               <div class="about-img">
                 <svg width="64" height="64">
@@ -204,7 +205,6 @@
                 within the shortest possible time.
               </p>
             </li>
-
             <li class="about-item">
               <div class="about-img">
                 <svg width="64" height="64">
@@ -730,5 +730,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

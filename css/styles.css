@@ -37,6 +37,10 @@ img {
   height: auto;
 }
 
+.no-csroll{
+  overflow: hidden;
+}
+
 .p-text {
   font-size: 16px;
   line-height: 1.5;
@@ -117,6 +121,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: auto;
 }
 .menu-close-btn {
   display: block;
