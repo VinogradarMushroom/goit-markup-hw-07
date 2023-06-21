@@ -37,7 +37,7 @@ img {
   height: auto;
 }
 
-.no-csroll{
+.no-csroll {
   overflow: hidden;
 }
 
@@ -110,13 +110,12 @@ img {
 
 /**-----------------Menu-------------*/
 
-.menu-open-btn{
+.menu-open-btn {
   margin: 0;
   padding: 0;
   border: none;
   stroke: var(--first-title-color);
   background-color: #fff;
-  
 }
 .mob-menu {
   z-index: 100;
