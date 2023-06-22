@@ -490,6 +490,8 @@ img {
   font-family: "Roboto", sans-serif;
   max-width: 268px;
   margin-bottom: 72px;
+  letter-spacing: 0.32px;
+
 }
 
 .footer-social {

@@ -6,7 +6,7 @@
   }
   .menu-social-list {
     gap: 56px;
-  } 
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -165,6 +165,31 @@
   .customers-item {
     width: calc((100% - 48px) / 3);
   }
+
+  /* Footer */
+
+  .footer-container {
+    max-width: 582px;
+    justify-content: left;
+    text-align: left;
+  }
+
+  .footer-about {
+    margin-right: 24px;
+  }
+
+  .footer-about {
+    color: var(--second-white-color);
+    max-width: 264px;
+  }
+
+  .subscribe-input {
+    width: 264px; 
+}
+.subscribe-form{
+  justify-content: left;
+  flex-wrap: nowrap;
+}
 }
 
 /* ----------PC---------- */
@@ -298,7 +323,7 @@
   .footer-main {
     margin-right: 120px;
   }
-  
+
   .subscribe-form {
     display: flex;
     gap: 24px;
