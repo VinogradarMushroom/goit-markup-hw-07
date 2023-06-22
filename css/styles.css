@@ -574,7 +574,6 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   gap: 16px;
-  width: 100%;
   max-width: 428px;
 }
 
