@@ -27,13 +27,16 @@
 
   /* Header */
 
+  .logo-web {
+    margin-right: 120px;
+  }
+
   .header-list {
     font-weight: 500;
     font-family: "Roboto", sans-serif;
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-right: 332px;
     margin-top: 0;
   }
 
@@ -67,7 +70,6 @@
   }
 
   .header-address-list {
-    display: block;
     align-items: center;
     gap: 40px;
   }
@@ -170,6 +172,11 @@
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+  }
+
+  /* Header */
+  .header-address-list {
+    display: flex;
   }
 
   /* Hero */
