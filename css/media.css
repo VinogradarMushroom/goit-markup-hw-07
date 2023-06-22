@@ -6,7 +6,7 @@
   }
   .menu-social-list {
     gap: 56px;
-  }
+  } 
 }
 
 @media screen and (max-width: 767px) {
@@ -175,6 +175,7 @@
   }
 
   /* Header */
+
   .header-address-list {
     display: flex;
   }
@@ -283,5 +284,23 @@
 
   .customers-item {
     width: calc((100% - 120px) / 6);
+  }
+  /* Footer */
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .footer-main {
+    margin-right: 120px;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    gap: 24px;
   }
 }
