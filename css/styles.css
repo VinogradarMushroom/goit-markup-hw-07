@@ -44,7 +44,7 @@ img {
 .p-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+letter-spacing: 0.32px;
 }
 
 .list {
@@ -131,7 +131,7 @@ img {
   overflow: auto;
 }
 .menu-close-btn {
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-bottom: 30px;
   box-sizing: border-box;
@@ -144,7 +144,7 @@ img {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  background-color: #e7e9fc;
+  background-color: #E7E9FC;
   border: 1px solid #2e2f42;
 }
 
@@ -186,7 +186,7 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.32px;
   color: var(--second-tittle-color);
 }
 
@@ -224,7 +224,7 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.32px;
   text-align: center;
   color: #ffffff;
   margin: 0 auto;
@@ -292,7 +292,7 @@ img {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.32px;
   text-transform: capitalize;
   color: var(--first-title-color);
   margin-bottom: 8px;
@@ -300,9 +300,6 @@ img {
 
 .about-item-name {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--second-tittle-color);
 }
 
@@ -318,7 +315,7 @@ img {
   margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.32px;
   text-align: center;
   text-transform: capitalize;
   color: var(--first-title-color);
@@ -340,7 +337,7 @@ img {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.32px;
   text-transform: capitalize;
   color: var(--first-title-color);
 }
@@ -356,7 +353,7 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.32px;
   color: var(--first-title-color);
   margin-bottom: 8px;
   text-align: center;
@@ -419,7 +416,7 @@ img {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.32px;
   text-transform: capitalize;
   margin-bottom: 72px;
 }
@@ -549,7 +546,12 @@ img {
   color: var(--primary-white-color);
   margin-bottom: 16px;
 }
-
+.subscribe-form{
+  width: 100%;
+}
+.subscribe-label{
+  width: 100%;
+}
 .subscribe-input {
   font-family: "Roboto";
   font-style: normal;
@@ -558,7 +560,7 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   opacity: 0.30000001192092896;
-  width: 398px;
+  width: 100%;
   height: 40px;
   background-color: transparent;
   font-size: 12px;
@@ -578,7 +580,7 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   gap: 16px;
-  max-width: 428px;
+  max-width: 398px;
 }
 
 .subscribe-btn {
@@ -678,7 +680,7 @@ img {
   color: var(--second-white-color);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.32px;
   background-color: var(--blue-second-color);
   height: 100%;
   transform: translateY(100%);
@@ -703,7 +705,7 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.32px;
   color: var(--first-title-color);
   margin-bottom: 8px;
 }
@@ -733,7 +735,8 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 408px;
+  width: 95%;
+  max-width: 408px;
   min-height: 584px;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -782,7 +785,7 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.32px;
   color: var(--first-title-color);
   text-align: center;
   margin-bottom: 16px;

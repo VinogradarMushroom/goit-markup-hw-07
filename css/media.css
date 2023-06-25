@@ -6,6 +6,7 @@
   }
   .menu-social-list {
     gap: 56px;
+    justify-content: left;
   }
 }
 
@@ -71,10 +72,10 @@
 
   .header-address-list {
     align-items: center;
-    gap: 40px
+    gap: 40px;
   }
-  
-  .header-address-item{
+
+  .header-address-item {
     margin-bottom: 12px;
   }
 
@@ -214,7 +215,7 @@
     display: flex;
   }
 
-  .header-address-item{
+  .header-address-item {
     margin-bottom: 0px;
   }
 
