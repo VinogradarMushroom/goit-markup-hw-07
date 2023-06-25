@@ -152,12 +152,17 @@ img {
   margin-bottom: 40px;
 }
 .mob-menu-link {
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
   text-transform: capitalize;
   color: var(--first-title-color);
+}
+
+.menu-navigation .page {
+  color: var(--accent-color);
 }
 
 .mob-menu-address {
@@ -491,7 +496,6 @@ img {
   max-width: 268px;
   margin-bottom: 72px;
   letter-spacing: 0.32px;
-
 }
 
 .footer-social {

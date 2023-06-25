@@ -71,7 +71,11 @@
 
   .header-address-list {
     align-items: center;
-    gap: 40px;
+    gap: 40px
+  }
+  
+  .header-address-item{
+    margin-bottom: 12px;
   }
 
   .header-address-link {
@@ -200,9 +204,18 @@
   }
 
   /* Header */
+  .header-address {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
 
   .header-address-list {
     display: flex;
+  }
+
+  .header-address-item{
+    margin-bottom: 0px;
   }
 
   /* Hero */
@@ -272,6 +285,7 @@
     font-size: 20px;
     line-height: 1.2;
     margin-bottom: 8px;
+    text-align: left;
   }
   .about-item-name {
     font-weight: 400;
@@ -311,7 +325,7 @@
     width: calc((100% - 120px) / 6);
   }
   /* Footer */
-  
+
   .footer {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -329,9 +343,7 @@
     display: flex;
     gap: 24px;
   }
-  .subscribe-container{
+  .subscribe-container {
     padding-left: 80px;
-
   }
-  
 }
