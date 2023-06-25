@@ -44,7 +44,7 @@ img {
 .p-text {
   font-size: 16px;
   line-height: 1.5;
-letter-spacing: 0.32px;
+  letter-spacing: 0.32px;
 }
 
 .list {
@@ -144,7 +144,7 @@ letter-spacing: 0.32px;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  background-color: #E7E9FC;
+  background-color: #e7e9fc;
   border: 1px solid #2e2f42;
 }
 
@@ -546,10 +546,10 @@ letter-spacing: 0.32px;
   color: var(--primary-white-color);
   margin-bottom: 16px;
 }
-.subscribe-form{
+.subscribe-form {
   width: 100%;
 }
-.subscribe-label{
+.subscribe-label {
   width: 100%;
 }
 .subscribe-input {
