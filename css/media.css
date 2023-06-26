@@ -229,6 +229,11 @@
 
 
   /* Header */
+
+  .header{
+    padding-bottom: 20px;
+  }
+
   .header-address {
     font-size: 16px;
     line-height: 1.5;
