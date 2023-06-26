@@ -10,7 +10,6 @@
     gap: 56px;
     justify-content: left;
     margin-bottom: 40px;
-
   }
 }
 
@@ -26,15 +25,15 @@
     margin-bottom: 40px;
   }
 }
-  @media screen and (max-width: 767px) {
-    .mob-menu > .container {
-      max-width: 383px;
-    }
-
-    .header-address-list {
-      display: none;
-    }
+@media screen and (max-width: 767px) {
+  .mob-menu > .container {
+    max-width: 383px;
   }
+
+  .header-address-list {
+    display: none;
+  }
+}
 
 /* ----------Tablet---------- */
 
