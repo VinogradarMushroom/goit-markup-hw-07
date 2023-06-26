@@ -12,6 +12,19 @@
   }
 }
 
+@media screen and (max-width: 428px){
+ .mob-menu-address-link-tel{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+ }
+ .menu-social-list {
+  gap: 10px;
+  justify-content: left;
+}
+
+}
+
 @media screen and (max-width: 767px) {
   .mob-menu > .container {
     max-width: 383px;

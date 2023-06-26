@@ -168,10 +168,16 @@ img {
 .mob-menu-address {
   font-style: normal;
   margin-bottom: 48px;
+  width: 100%;
+  max-width: 353px;
+}
+.mob-menu-address-list {
+  width: 100%;
 }
 .mob-menu-address-link-tel {
   font-family: "Roboto";
   display: block;
+  width: 100%;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -547,7 +553,13 @@ img {
 }
 .subscribe-form {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  max-width: 398px;
 }
+
 .subscribe-label {
   width: 100%;
 }
@@ -574,13 +586,6 @@ img {
   opacity: 0.6000000238418579;
 }
 
-.subscribe-form {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 16px;
-  max-width: 398px;
-}
 
 .subscribe-btn {
   min-width: 165px;
