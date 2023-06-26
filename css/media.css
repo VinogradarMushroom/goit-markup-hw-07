@@ -36,6 +36,10 @@
 
   /* Header */
 
+  .header{
+    padding-bottom: 13px;
+  }
+
   .logo-web {
     margin-right: 120px;
   }
