@@ -9,6 +9,8 @@
   .menu-social-list {
     gap: 56px;
     justify-content: left;
+    margin-bottom: 40px;
+
   }
 }
 
@@ -21,18 +23,18 @@
   .menu-social-list {
     gap: 10px;
     justify-content: left;
+    margin-bottom: 40px;
   }
 }
+  @media screen and (max-width: 767px) {
+    .mob-menu > .container {
+      max-width: 383px;
+    }
 
-@media screen and (max-width: 767px) {
-  .mob-menu > .container {
-    max-width: 383px;
+    .header-address-list {
+      display: none;
+    }
   }
-
-  .header-address-list {
-    display: none;
-  }
-}
 
 /* ----------Tablet---------- */
 
@@ -108,12 +110,9 @@
     color: #404bbf;
   }
 
-  
-
   .header-navigation .page {
     color: var(--accent-color);
   }
-
 
   .header-navigation .page::after {
     content: "";
@@ -126,7 +125,6 @@
     border-radius: 2px;
     top: 75px;
   }
-
 
   /* Hero */
   .hero {
@@ -244,7 +242,7 @@
     margin-bottom: 0px;
   }
 
-  .header-navigation .page::after{
+  .header-navigation .page::after {
     top: 67px;
   }
 
