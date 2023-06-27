@@ -25,7 +25,7 @@
     padding-bottom: 40px;
   }
   .menu-social-list {
-    gap: 10px;
+    gap: 26px;
     justify-content: left;
   }
 }
@@ -50,6 +50,10 @@
   }
 
   /* Header */
+  .header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 
   .logo-web {
     margin-right: 120px;
@@ -71,8 +75,6 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--first-title-color);
-    padding-top: 24px;
-    padding-bottom: 24px;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -91,6 +93,8 @@
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
+    /* padding-top: 16px;
+    padding-bottom: 16px; */
   }
 
   .header-address-list {
@@ -104,15 +108,14 @@
 
   .header-address-link {
     color: var(--second-tittle-color);
-    padding-top: 24px;
-    padding-bottom: 24px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-address-link:is(:hover, :focus) {
     color: #404bbf;
   }
-
+  .header-navigation {
+  }
   .header-navigation .page {
     color: var(--accent-color);
   }
@@ -126,7 +129,7 @@
     height: 4px;
     background-color: var(--accent-color);
     border-radius: 2px;
-    top: 75px;
+    top: 45px;
   }
 
   /* Hero */
@@ -229,6 +232,10 @@
   }
 
   /* Header */
+  .header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
 
   .header-address {
     font-size: 16px;
@@ -244,9 +251,10 @@
   .header-address-item {
     margin-bottom: 0px;
   }
-
+  .header-navigation {
+  }
   .header-navigation .page::after {
-    top: 67px;
+    top: 43px;
   }
 
   /* Hero */
