@@ -372,17 +372,17 @@
 
   .footer {
     padding-top: 100px;
-    padding-bottom: 0px;
+    padding-bottom: 100px;
   }
 
   .footer-container {
     display: flex;
     align-items: baseline;
-    padding-bottom: 100px;
+    padding: 0;
   }
 
   .footer-main {
-    margin-right: 100px;
+    margin-right: 120px;
     margin-bottom: 0;
   }
 
