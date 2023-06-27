@@ -6,11 +6,12 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .mob-menu-container {
+    padding-bottom: 40px;
+  }
   .menu-social-list {
     gap: 56px;
     justify-content: left;
-    padding-bottom: 40px;
-    margin-bottom: 0;
   }
 }
 
@@ -20,11 +21,12 @@
     font-size: 20px;
     line-height: 1.2;
   }
+  .mob-menu-container {
+    padding-bottom: 40px;
+  }
   .menu-social-list {
     gap: 10px;
     justify-content: left;
-    padding-bottom: 40px;
-    margin-bottom: 0;
   }
 }
 @media screen and (max-width: 767px) {
