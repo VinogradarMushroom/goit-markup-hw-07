@@ -371,8 +371,7 @@
   /* Footer */
 
   .footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0;
   }
 
   .footer-container {
@@ -394,7 +393,5 @@
   .subscribe-form {
     display: flex;
     gap: 24px;
-  }
-  .subscribe-container {
   }
 }
