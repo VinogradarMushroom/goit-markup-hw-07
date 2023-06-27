@@ -476,6 +476,10 @@ img {
   justify-content: center;
 }
 
+.footer-main {
+  padding-bottom: 72px;
+}
+
 .footer-logo-web {
   font-weight: 800;
   font-size: 18px;
@@ -496,11 +500,10 @@ img {
   color: var(--second-white-color);
   font-family: "Roboto", sans-serif;
   max-width: 268px;
-  margin-bottom: 72px;
   letter-spacing: 0.32px;
 }
 
-.footer-second-main{
+.footer-second-main {
   padding-bottom: 72px;
 }
 
