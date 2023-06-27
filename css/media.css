@@ -93,8 +93,6 @@
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    /* padding-top: 16px;
-    padding-bottom: 16px; */
   }
 
   .header-address-list {
@@ -206,13 +204,20 @@
     text-align: left;
   }
 
-  .footer-about {
-    margin-right: 24px;
+  .footer-main {
+    margin-bottom: 72px;
+    padding-bottom: 0;
   }
 
   .footer-about {
     color: var(--second-white-color);
     max-width: 264px;
+    margin-right: 24px;
+  }
+
+  .footer-second-main {
+    margin-bottom: 104px;
+    padding-bottom: 0;
   }
 
   .subscribe-input {
@@ -369,13 +374,21 @@
     padding-top: 100px;
     padding-bottom: 0px;
   }
+
   .footer-container {
     display: flex;
     align-items: baseline;
+    padding-bottom: 100px;
   }
 
   .footer-main {
     margin-right: 100px;
+    margin-bottom: 0;
+  }
+
+  .footer-second-main {
+    margin-bottom: 0px;
+    margin-right: 80px;
   }
 
   .subscribe-form {
@@ -383,6 +396,5 @@
     gap: 24px;
   }
   .subscribe-container {
-    padding-left: 80px;
   }
 }
